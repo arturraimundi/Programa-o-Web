@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: black;    
+}
+header img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#title p{
+    text-align: left;
+    padding-left: 20%;
+}
+.container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.container img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 1);
+}
+
+.container h1{
+    padding-top: 5%;
+    font-size: 40px;
+}
+.container h2{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20%;
+}
+.container p{  
+    text-align: left;
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 5%;
+
+}
+
+.title p{
+    font-size: 18px;
+}
+.title span{
+    color: brown;
+}
+.title a{
+    text-decoration: none;
+    color: brown;
+}
+
+.casting h1{
+    padding: 2px;
+    font-size: 50px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: brown;
+    background-color: rgb(255, 255, 255);
+    text-shadow: red 0 -2px;
+    border-radius: 5px;
+ 
+
+
+}
+.casting h2{
+    padding: 2px;
+    font-size: 35px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: brown;
+    text-shadow: red 0 -2px;    
+    background-color: rgb(30, 0, 0);
+    border-radius: 5px;
+}
+
+.casting img{
+    display: block;
+    margin: auto;
+    
+}
+.casting p{
+    padding: 5px
+}
+/*arrumar a imagem para ela não se deformar no cll*/
+.actor{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+
+.actor img{
+    width: 200px;
+    height: 200px;
+}
+
+#section2{
+    background-color: rgb(68, 0, 0);
+}
+
+.main{
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+}
+

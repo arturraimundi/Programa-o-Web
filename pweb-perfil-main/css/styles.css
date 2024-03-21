@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    text-underline-offset: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: rgb(104, 38, 0);
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    text-align: center;
+    color: white;
+}
+img{
+    width: 200px;
+}
+
+.perfilcontainer p{
+    font-size: 25px;
+    padding: 15px 25px;
+}
+.nav{
+    background-color: black;
+}
+/*section1*/
+
+.section1{
+    margin-top: 50px;
+    background-color: rgb(80, 35, 3);
+    padding: 1%;
+}
+
+.infocontainer{
+    color: white;
+    text-align: center;
+}
+
+.navinfo{
+    padding: 10px 90px;
+}
+.navinfo ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navinfo a{
+    text-decoration: none;
+    color: white;
+}
+.navinfo img{
+    width: 100px;
+}
+
+.front{
+    color: yellow
+}
