@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: "Raleway", sans-serif;
+    --cor-primaria: #5eb3c3;
+    --espaco-margem: 0px 100px;
 }
 
 body{
-    background-color: rgb(97, 180, 228);
+    background-color: var(--cor-primaria);
     color: white;
     flex-wrap: wrap;
 }
@@ -51,4 +53,27 @@ header{
 .containerheader span{
     font-size: 100px;
     font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    
+}
+.title h2{
+    font-size: 65px;
+    
+}
+.title p{
+    font-size: 25px;
+}
+.section{
+    background-color: white;
+    color: black;
+}
+.secbuttons{
+    padding: var(--espaco-margem);
+    display: flex;
 }
