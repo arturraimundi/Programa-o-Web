@@ -43,9 +43,12 @@ header{
     display: flex;
     padding: 100px;
     gap: 100px;
+    
 }
 .containerheader img{
-    width: 800px;
+    width: 150%;
+    height: 150%;
+    
 }
 .containerheader h1{
     font-size: 100px;
@@ -76,4 +79,41 @@ header{
 .secbuttons{
     padding: var(--espaco-margem);
     display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.secbuttons h2{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.secbuttons p{
+    color: black;
+    text-align: center;
+    font-size: smaller;
+}
+.button{
+    padding: 200px 0px 150px 0px;
+    text-align: center;
+}
+.buttonBlue{
+    padding: 200px 0px 150px 0px;
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+.container{
+    color: rgb(59, 59, 59);
+    padding: 100px 150px;
+    background-color: rgb(209, 224, 219);
+    font-size: 25px;
+    text-align: center;
+}
+.container h2{
+    font-size: 45px;
+}
+.images{
+    display: flex;
+    gap: 25px;
+    padding-top: 50px;
+    justify-content: center;
 }
