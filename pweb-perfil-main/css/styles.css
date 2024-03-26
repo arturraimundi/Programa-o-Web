@@ -5,6 +5,10 @@
     box-sizing: border-box;
     
 }
+#section2{
+    background-color: rgb(104, 38, 0);
+}
+
 a{
     text-decoration: none;
     text-underline-offset: none;
@@ -21,19 +25,50 @@ header{
     color: white;
 }
 img{
-    width: 200px;
+    width: 150px;
 }
 
-.perfilcontainer p{
-    font-size: 25px;
-    padding: 15px 25px;
+footer
+{
+    background-color: black;
+    padding-top: 40px;
+    color: white;
 }
+
+p{
+    font-size: 20px;
+    padding: 2% 20%;
+}
+footer
+{
+    background-color: black;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+
 .nav{
     background-color: black;
+    display: flex;
+    justify-content: center;
+
+
 }
+.nav ul{
+    display: flex;
+    margin: 20px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+
 /*section1*/
 
-.section1{
+.section{
     margin-top: 50px;
     background-color: rgb(80, 35, 3);
     padding: 1%;
@@ -44,6 +79,7 @@ img{
     text-align: center;
 }
 
+
 .navinfo{
     padding: 10px 90px;
 }
@@ -51,12 +87,14 @@ img{
     display: flex;
     width: 100%;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
+
 }
 .navinfo a{
     text-decoration: none;
     color: white;
+    margin: 20px;
 }
 .navinfo img{
     width: 100px;
@@ -64,4 +102,10 @@ img{
 
 .front{
     color: yellow
+}
+
+
+.interessesvg{
+    display: flex;
+    justify-content: center;
 }
