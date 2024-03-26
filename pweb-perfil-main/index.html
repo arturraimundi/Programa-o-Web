@@ -1,55 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="nav">
-            <nav>
-                <ul>
-                    <li><a href=""> quem sou eu?</a></li>
-                    <li><a href=""> informações pessoais</a></li>
-                    <li><a href=""> meus interesses</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="perfilcontainer">
-            <img src="./assets/perfilimg.png" alt="imagem de perfil">
-            <h1>Oi, eu sou o Artur.</h1>
-            <p>estudante da área tech, participou de projetos de extensão na área e olimpíadas, procurando conhecimento em diversas áreas. Ainda no ensino médio, realizando o curso técnico em informática e também estudando, principalmente, Frontend para programação <span><a href="https://github.com/arturraimundi/bikcraft" class="front">web</a></span> e <span><a href="https://github.com/arturraimundi/Amazon-Prime-interface" class="front">mobile.</a></span></p>
-        </div>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="#sobremim"> Sobre mim</a></li>
+            <li><a href="#onde"> informações</a></li>
+            <li><a href="#section2"> interesses</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="perfilcontainer" id="sobremim">
+        <img src="./assets/perfilimg.png" alt="imagem de perfil" />
+        <h1>Oi, eu sou o Artur.</h1>
+        <p>
+          estudante da área tech, participou de projetos de extensão na área e
+          olimpíadas, procurando conhecimento em diversas áreas. Ainda no ensino
+          médio, realizando o curso técnico em informática e também estudando,
+          principalmente, Frontend para programação
+          <span
+            ><a href="https://github.com/arturraimundi/bikcraft" class="front"
+              >web</a
+            ></span
+          >
+          e
+          <span
+            ><a
+              href="https://github.com/arturraimundi/Amazon-Prime-interface"
+              class="front"
+              >mobile.</a
+            ></span
+          >
+        </p>
+      </div>
     </header>
 
-    <section class="section1">
-        <div class="infocontainer"> 
-            <h2>Onde me achar</h2>
-            <div class="navinfo">
-                <nav>
-                    <ul>
-                        <li><a href="https://github.com/arturraimundi"><img src="./assets/github.png" alt="githublogo"><br>github</a></li>
-                        <li><a href="https://www.linkedin.com/in/artur-francisco-raimundi-de-quadros-0ba350199/"><img src="./assets/linkedinlogo.png" alt="linkedinlogo"><br>linkedin</a></li>
-                        <li><a href="https://www.instagram.com/artur_raimundi/"><img src="./assets/instalogo.jpeg" alt="Instalogo"><br>instagram</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <section class="section"  id="onde">
+      <div class="infocontainer">
+        <h2>Onde me achar</h2>
+        <div class="navinfo">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://github.com/arturraimundi" target="_blank"
+                  ><img
+                    src="./assets/github.png"
+                    alt="githublogo"
+                  /><br />github</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/artur-francisco-raimundi-de-quadros-0ba350199/"
+                  target="_blank"
+                  ><img
+                    src="./assets/linkedinlogo.png"
+                    alt="linkedinlogo"
+                  /><br />linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/artur_raimundi/"
+                  target="_blank"
+                  ><img
+                    src="./assets/instalogo.jpeg"
+                    alt="Instalogo"
+                  /><br />instagram</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </section>
-    <section class="section1">
-        <div class="infocontainer">
-            <h2>Meus conhecimentos</h2>
+    <section class="section" id="section2">
+      <div class="infocontainer">
+        <h2>Meus conhecimentos</h2>
+        <p>
+          Com o curso técnico em informática, e curiosidade, adquiri um pouco de
+          experiência em diversas áreas, elas são: manutenção e montagem de
+          computadores, programação orientada a objeto com
+          <a href="https://github.com/arturraimundi/Exerciciosjavabasico" class="front" target="_blank">Java</a>, algoritmos com
+          <a href="https://github.com/arturraimundi/EscalonodarSJF" class="front" target="_blank">Python</a> e
+          <a href="https://github.com/arturraimundi/ESTUDOS-3ANO/tree/main/CS50%20harvard" class="front" target="_blank">C</a> Front-end com
+          <a href="https://github.com/arturraimundi/bikcraft" class="front" target="_blank">HTML, CSS</a> e um pouco de
+          <a href="https://github.com/arturraimundi/Amazon-Prime-interface" class="front" target="_blank">React Native</a>. Além de ter
+          experiência em programação de arduínos com C++ e estar estudando
+          <a href="https://github.com/arturraimundi/Estudos" class="front" target="_blank">Kotlin</a>.
 
-        </div>
-
+        </p>
+        <div class="interessesvg">
+        <a href=""
+          ><svg
+            width="64px"
+            height="64px"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M16.0497 8.44062C22.6378 3.32607 19.2566 0 19.2566 0C19.7598 5.28738 13.813 6.53583 12.2189 10.1692C11.1312 12.6485 12.9638 14.8193 16.0475 17.5554C15.7749 16.9494 15.3544 16.3606 14.9288 15.7645C13.4769 13.7313 11.9645 11.6132 16.0497 8.44062Z"
+                fill="#E76F00"
+              ></path>
+              <path
+                d="M17.1015 18.677C17.1015 18.677 19.0835 17.0779 17.5139 15.3008C12.1931 9.27186 23.3333 6.53583 23.3333 6.53583C16.5317 9.8125 17.5471 11.7574 19.2567 14.1202C21.0871 16.6538 17.1015 18.677 17.1015 18.677Z"
+                fill="#E76F00"
+              ></path>
+              <path
+                d="M22.937 23.4456C29.0423 20.3258 26.2195 17.3278 24.2492 17.7317C23.7662 17.8305 23.5509 17.9162 23.5509 17.9162C23.5509 17.9162 23.7302 17.64 24.0726 17.5204C27.9705 16.1729 30.9682 21.4949 22.8143 23.6028C22.8143 23.6029 22.9088 23.5198 22.937 23.4456Z"
+                fill="#5382A1"
+              ></path>
+              <path
+                d="M10.233 19.4969C6.41312 18.9953 12.3275 17.6139 12.3275 17.6139C12.3275 17.6139 10.0307 17.4616 7.20592 18.8043C3.86577 20.3932 15.4681 21.1158 21.474 19.5625C22.0984 19.1432 22.9614 18.7798 22.9614 18.7798C22.9614 18.7798 20.5037 19.2114 18.0561 19.4145C15.0612 19.6612 11.8459 19.7093 10.233 19.4969Z"
+                fill="#5382A1"
+              ></path>
+              <path
+                d="M11.6864 22.4758C9.55624 22.2592 10.951 21.2439 10.951 21.2439C5.43898 23.0429 14.0178 25.083 21.7199 22.8682C20.9012 22.5844 20.3806 22.0653 20.3806 22.0653C16.6163 22.7781 14.441 22.7553 11.6864 22.4758Z"
+                fill="#5382A1"
+              ></path>
+              <path
+                d="M12.6145 25.6991C10.486 25.4585 11.7295 24.7474 11.7295 24.7474C6.72594 26.1222 14.7729 28.9625 21.1433 26.2777C20.0999 25.8787 19.3528 25.4181 19.3528 25.4181C16.5111 25.9469 15.1931 25.9884 12.6145 25.6991Z"
+                fill="#5382A1"
+              ></path>
+              <path
+                d="M25.9387 27.3388C25.9387 27.3388 26.8589 28.0844 24.9252 28.6612C21.2481 29.7566 9.62093 30.0874 6.39094 28.7049C5.22984 28.2082 7.40723 27.5189 8.09215 27.3742C8.80646 27.2219 9.21466 27.2503 9.21466 27.2503C7.9234 26.3558 0.868489 29.0067 5.63111 29.7659C18.6195 31.8372 29.3077 28.8331 25.9387 27.3388Z"
+                fill="#5382A1"
+              ></path>
+              <path
+                d="M28 28.9679C27.7869 31.6947 18.7877 32.2683 12.9274 31.8994C9.10432 31.6583 8.33812 31.0558 8.32691 31.047C11.9859 31.6402 18.1549 31.7482 23.1568 30.8225C27.5903 30.0016 28 28.9679 28 28.9679Z"
+                fill="#5382A1"
+              ></path>
+            </g></svg>
+        </a>
+        <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="2" y="2" width="28" height="28" fill="#FFCA28"></rect> <path d="M19 25.2879L21.0615 23.9237C21.2231 24.4313 22.2462 25.6368 23.5385 25.6368C24.8308 25.6368 25.4308 24.931 25.4308 24.463C25.4308 23.1878 24.1112 22.7382 23.4774 22.5223C23.374 22.4871 23.289 22.4581 23.2308 22.4328C23.2009 22.4198 23.1558 22.4025 23.0979 22.3804C22.393 22.1111 19.7923 21.1175 19.7923 18.2373C19.7923 15.065 22.8538 14.7002 23.5462 14.7002C23.9991 14.7002 26.1769 14.7557 27.2615 16.7939L25.2615 18.1898C24.8231 17.3015 24.0946 17.0081 23.6462 17.0081C22.5385 17.0081 22.3077 17.8201 22.3077 18.1898C22.3077 19.227 23.5112 19.6919 24.5273 20.0844C24.7932 20.1871 25.0462 20.2848 25.2615 20.3866C26.3692 20.91 28 21.7666 28 24.463C28 25.8136 26.8672 28.0002 24.0154 28.0002C20.1846 28.0002 19.1692 25.7003 19 25.2879Z" fill="#3E3E3E"></path> <path d="M9 25.5587L11.1487 24.1953C11.317 24.7026 11.9713 25.638 12.9205 25.638C13.8698 25.638 14.3557 24.663 14.3557 24.1953V15.0002H16.9982V24.1953C17.041 25.4636 16.3376 28.0002 13.2332 28.0002C10.379 28.0002 9.19242 26.3039 9 25.5587Z" fill="#3E3E3E"></path> </g></svg>
+        <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"></path> <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"></path> </g></svg>
+        <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD"></path> <path d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z" fill="white"></path> </g></svg>
+        <svg width="64px" height="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0164 2C10.8193 2 9.03825 3.72453 9.03825 5.85185V8.51852H15.9235V9.25926H5.97814C3.78107 9.25926 2 10.9838 2 13.1111L2 18.8889C2 21.0162 3.78107 22.7407 5.97814 22.7407H8.27322V19.4815C8.27322 17.3542 10.0543 15.6296 12.2514 15.6296H19.5956C21.4547 15.6296 22.9617 14.1704 22.9617 12.3704V5.85185C22.9617 3.72453 21.1807 2 18.9836 2H13.0164ZM12.0984 6.74074C12.8589 6.74074 13.4754 6.14378 13.4754 5.40741C13.4754 4.67103 12.8589 4.07407 12.0984 4.07407C11.3378 4.07407 10.7213 4.67103 10.7213 5.40741C10.7213 6.14378 11.3378 6.74074 12.0984 6.74074Z" fill="url(#paint0_linear_87_8204)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9834 30C21.1805 30 22.9616 28.2755 22.9616 26.1482V23.4815L16.0763 23.4815L16.0763 22.7408L26.0217 22.7408C28.2188 22.7408 29.9998 21.0162 29.9998 18.8889V13.1111C29.9998 10.9838 28.2188 9.25928 26.0217 9.25928L23.7266 9.25928V12.5185C23.7266 14.6459 21.9455 16.3704 19.7485 16.3704L12.4042 16.3704C10.5451 16.3704 9.03809 17.8296 9.03809 19.6296L9.03809 26.1482C9.03809 28.2755 10.8192 30 13.0162 30H18.9834ZM19.9015 25.2593C19.1409 25.2593 18.5244 25.8562 18.5244 26.5926C18.5244 27.329 19.1409 27.9259 19.9015 27.9259C20.662 27.9259 21.2785 27.329 21.2785 26.5926C21.2785 25.8562 20.662 25.2593 19.9015 25.2593Z" fill="url(#paint1_linear_87_8204)"></path> <defs> <linearGradient id="paint0_linear_87_8204" x1="12.4809" y1="2" x2="12.4809" y2="22.7407" gradientUnits="userSpaceOnUse"> <stop stop-color="#327EBD"></stop> <stop offset="1" stop-color="#1565A7"></stop> </linearGradient> <linearGradient id="paint1_linear_87_8204" x1="19.519" y1="9.25928" x2="19.519" y2="30" gradientUnits="userSpaceOnUse"> <stop stop-color="#FFDA4B"></stop> <stop offset="1" stop-color="#F9C600"></stop> </linearGradient> </defs> </g></svg>
+        <svg width="64px" height="64px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><linearGradient id="a" x1="73.714" y1="910.226" x2="105.452" y2="878.134" gradientTransform="translate(-64.139 -782.556) scale(0.893)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0296d8"></stop><stop offset="1" stop-color="#8371d9"></stop></linearGradient><linearGradient id="b" x1="69.813" y1="905.226" x2="102.279" y2="875.745" gradientTransform="translate(-64.139 -782.556) scale(0.893)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#cb55c0"></stop><stop offset="1" stop-color="#f28e0e"></stop></linearGradient></defs><title>file_type_kotlin</title><path d="M2,2V30H30v-.047l-6.95-7L16.1,15.946l6.95-7.012L29.938,2Z" style="fill:url(#a)"></path><path d="M16.318,2,2,16.318V30h.124L16.132,15.992l-.031-.031L23.05,8.95,29.938,2Z" style="fill:url(#b)"></path></g></svg>
+    </div>
     </section>
-    <footer></footer>
-</body>
+    <footer>
+        <p>Todos direitos reservados copyright © </p>
+    </footer>
+  </body>
 </html>
