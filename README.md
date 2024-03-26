@@ -11,13 +11,19 @@ Pweb-perfil-main
 Projeto de repositório desenvolvido como atividade de aula(ainda em desenvolvimento).
 desktop
 ![image](https://github.com/arturraimundi/web-development/assets/79712639/38089f13-6304-499b-8cea-7d322216f723)
+
+
 mobile
+
+
 ![image](https://github.com/arturraimundi/web-development/assets/79712639/82425c20-bd54-496d-aee0-7ab16150c504)
+
+
 
 ![image](https://github.com/arturraimundi/web-development/assets/79712639/1b65ffe2-9133-4fa4-b17a-e46769227390)
 
 LoginFirebase
-Projeto backend, é uma tela de cadastro e login com firebase. Ainda em desenvolvimento.
+Projeto backend, sistema de cadastro e login com firebase. Ainda em desenvolvimento.
 ![image](https://github.com/arturraimundi/web-development/assets/79712639/cfbeb504-2aca-423a-b4d4-12aea2214238)
 acesse aqui: https://65f49eb9ba034217d721c336--timely-gumption-c74892.netlify.app/
 
