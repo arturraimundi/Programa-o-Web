@@ -46,8 +46,8 @@ header{
     
 }
 .containerheader img{
-    width: 150%;
-    height: 150%;
+    width: 100%;
+    height: 50%;
     
 }
 .containerheader h1{
@@ -116,4 +116,19 @@ header{
     gap: 25px;
     padding-top: 50px;
     justify-content: center;
+}
+
+.personscontainer{
+    display: flex;
+    justify-content: center;
+    
+}
+.person{
+    text-align: center;
+    padding: 100px 50px;
+    width: 400px;
+}
+
+.person h2{
+    margin-bottom: 10px;
 }
