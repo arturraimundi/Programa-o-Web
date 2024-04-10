@@ -30,3 +30,7 @@ acesse aqui: https://65f49eb9ba034217d721c336--timely-gumption-c74892.netlify.ap
 Project Movies
 Frontend sobre o filme Saltburn, desenvolvido como atividade do curso técnico em informática.
 ![image](https://github.com/arturraimundi/web-development/assets/79712639/466db338-522b-4578-95ce-14b5b03eff91)
+
+Project Makaan
+Landing page para empresa de arquitetura, ainda em desenvolvimento.
+![image](https://github.com/arturraimundi/web-development/assets/79712639/61700777-0786-46f6-a4f8-d17c9b4f8876)
