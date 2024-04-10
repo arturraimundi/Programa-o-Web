@@ -32,5 +32,5 @@ Frontend sobre o filme Saltburn, desenvolvido como atividade do curso técnico e
 ![image](https://github.com/arturraimundi/web-development/assets/79712639/466db338-522b-4578-95ce-14b5b03eff91)
 
 Project Makaan
-Landing page para empresa de arquitetura, ainda em desenvolvimento.
+Landing page para empresa de imobiliária, ainda em desenvolvimento.
 ![image](https://github.com/arturraimundi/web-development/assets/79712639/61700777-0786-46f6-a4f8-d17c9b4f8876)
