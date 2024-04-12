@@ -29,6 +29,11 @@ a{
 span{
   color: var(--primary);
 }
+footer{
+  background-color: var(--dark);
+  padding: 100px 100px;
+  color: white;
+}
 .logo{
   display: flex;
   color: var(--primary);
@@ -87,4 +92,134 @@ span{
 .button a{
   color: var(--secondary);
   font-size: 20px;
+}
+
+.second-text{
+  text-align: center;
+  padding: 80px 400px 80px;
+  color: gray;
+}
+.second-text h2{
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: var(--dark);
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card{
+  border-radius: 5px;
+  box-shadow:
+  0 0 0 0.1em var(--primary),
+  0 0 0 1em #00b98e17;
+  padding: 50px 80px 50px 80px;
+  text-align: center;
+  font-weight: 700;
+}
+.properties{
+  color: #00b98e;
+  font-weight: normal;
+}
+.card-house{
+  border-radius: 5px;
+  box-shadow: 50px 10px 10px #88888825;
+}
+.img1{
+  width: 400px;
+  background-image: url('../img/sec2-house1.jpg');
+  border-radius: 5px;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img2{
+  width: 400px;
+  background-image: url('../img/sec2-house2.jpg');
+  border-radius: 5px;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img3{
+  width: 400px;
+  background-image: url('../img/sec2-house3.jpg');
+  border-radius: 5px;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-card{
+  padding: 10px;
+}
+.price{
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.property-type{
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.adress{
+  color: gray;
+}
+
+.section-two{
+  margin-bottom: 200px;
+}
+.footer{
+  display: flex;
+}
+.left-side{
+  width: 50%;
+}
+.right-side{
+  width: 50%;
+  display: block;
+}
+.right-side h2{
+  padding-bottom: 20px;
+}
+.right-side a{
+  color:gray;
+  
+}
+.contact{
+  display: flex;
+  color: gray;
+  padding: 10px 0px;
+}
+.contact img{
+  width: 2%;
+  height: 2%;
+  margin-right: 10px;
+}
+.links{
+  width: 50%;
+}
+.social{
+  display: flex;
+  gap: 10px;
+}
+.social img{
+  width: 50px;
+}
+
+.abs{
+  position:fixed;
+  bottom: 15px;
+  right: 50px;
+}
+.abs img{
+  width: 85px;
 }
