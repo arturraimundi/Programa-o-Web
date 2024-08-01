@@ -1,3 +1,5 @@
+Estudar depois(https://www.youtube.com/watch?v=S4dCR-7I3_w&list=PLvB16Ek9W3oNGNlxuZwv5kF35hUFwrkQw)
+
 Este respositório ira armazenar os projetos realizado na matéria desenvolvimento web 
 e tambem estudos realizados para me aprofundar no tema.
 Makaan project
